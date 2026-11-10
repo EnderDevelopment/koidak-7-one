@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Anti-Tank Homing Launcher Behavior",
+    "description": "Adds a homing anti-tank launcher with target locking.",
+    "uuid": "6c4f1dc6-0e6a-47ac-9b68-1c4775b1a8f0",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 80]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "d2fd23a0-41dd-4a16-8a10-e0e0cdd0b32c",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "4ec31ac6-77c8-4c7b-a7f5-0a1da9d74c67",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.18.0"
+    }
+  ]
+}

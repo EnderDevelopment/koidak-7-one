@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "atl:anti_tank_launcher",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": "anti_tank_launcher",
+      "minecraft:display_name": {
+        "value": "Anti-Tank Homing Launcher"
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 64
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 0.2,
+        "movement_modifier": 0.8
+      }
+    }
+  }
+}

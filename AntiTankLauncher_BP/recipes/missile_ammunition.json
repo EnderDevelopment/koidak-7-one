@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "atl:missile_ammunition_recipe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " I ",
+      "RBR",
+      " G "
+    ],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" },
+      "R": { "item": "minecraft:redstone" },
+      "B": { "item": "minecraft:blaze_powder" },
+      "G": { "item": "minecraft:gunpowder" }
+    },
+    "result": {
+      "item": "atl:missile_ammunition",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Anti-Tank Homing Launcher Resources",
+    "description": "Resources for the Anti-Tank Homing Launcher.",
+    "uuid": "9f1b3b1d-0e39-4d5d-a9d3-1f8c6bc8d8d5",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 80]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "f5db96b7-2e9d-4f62-b3cb-98e3a83fdb42",
+      "version": [1, 0, 0]
+    }
+  ]
+}

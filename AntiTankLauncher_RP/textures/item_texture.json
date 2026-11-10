@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "Anti-Tank Homing Launcher Resources",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "anti_tank_launcher": {
+      "textures": "textures/items/bow_standby"
+    },
+    "missile_ammunition": {
+      "textures": "textures/items/firework_rocket"
+    }
+  }
+}

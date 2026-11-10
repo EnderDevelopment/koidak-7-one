@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "atl:anti_tank_launcher_recipe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "IRI",
+      "SBS",
+      " I "
+    ],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" },
+      "R": { "item": "minecraft:redstone" },
+      "S": { "item": "minecraft:stick" },
+      "B": { "item": "minecraft:blaze_rod" }
+    },
+    "result": {
+      "item": "atl:anti_tank_launcher",
+      "count": 1
+    }
+  }
+}
